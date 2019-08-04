@@ -1,12 +1,58 @@
 .page-header{
     width:100%;
     height:100vh;
-    background-color:#17182f;
+    background-color:#141c41;
+
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+
 }
+
+.page-header-profile{
+    position:absolute;
+    padding: 0.4em;
+    top:25vh;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway', 'Lato', sans-serif;
+    font-weight: 400;
+    text-align:center;
+    font-size:40px;
+    color:white;
+    margin:auto;
+    
+    h1,h2,h3,h4{
+        margin:0em;
+        text-shadow: 0 0 4px #ffffff;
+        transition: all 0.3s ease-in-out;
+    }
+
+    @media only screen and (max-width: 500px) {
+        font-size:25px;  
+    }
+    
+    
+}
+
+
+.page-header-profile:hover{
+    h1,h2,h3,h4{
+        text-shadow: 0 0 6px #ffffff;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+
 .page-header2{
     width:100%;
     height:100vh;
-    background-color:red;
+    background-color:white;
+    
 }
 
 .page-header-particles{
