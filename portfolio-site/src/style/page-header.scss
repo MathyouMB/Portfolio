@@ -26,6 +26,14 @@
     color:white;
     margin:auto;
     
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+
     h1,h2,h3,h4{
         margin:0em;
         text-shadow: 0 0 4px #ffffff;
@@ -45,6 +53,10 @@
         text-shadow: 0 0 6px #ffffff;
         transition: all 0.3s ease-in-out;
     }
+    .page-header-dash{
+        box-shadow: 0 0 6px #ffffff;
+        transition: all 0.3s ease-in-out;
+    }
 }
 
 
@@ -59,3 +71,24 @@
     width:100%;
     height:100vh; 
 }
+
+.page-header-name{
+    display: inline-block;
+}
+
+
+.page-header-dash{
+    display: inline-block;
+    
+    width:1em;
+    height:0.075em;
+    background-color:white;
+    margin:auto;
+    margin-top:5vh;
+
+    border-style:solid;
+    border-color:white;
+    border-radius:2em;
+    box-shadow: 0 0 4px #ffffff;
+}
+

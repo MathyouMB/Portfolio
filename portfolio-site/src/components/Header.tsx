@@ -8,9 +8,12 @@ const Header: React.FC = () => {
   return (
       <div>
         <div className="page-header">
-            <div className="page-header-profile hvr-float">
+            <div className="page-header-profile hvr-float fadeIn">
+            <div className="page-header-name">
                 <h1>MATTHEW</h1>
                 <h3>MacRae - Bovell</h3>
+            </div>
+                <div className="page-header-dash"></div>
             </div>
 
             <Particles className="page-header-particles"
