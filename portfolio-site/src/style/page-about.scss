@@ -1,0 +1,18 @@
+.page-about{
+    width:100%;
+    height:100vh;
+    background-color:#0a0e20;
+    z-index: 100;
+    display:flex;
+    justify-content: center;
+
+}
+
+.page-about-inner{
+
+    opacity:0.99;
+    background-color:#3e6bce;
+    width:100%;
+    height:80%;
+    z-index: 100;
+}
