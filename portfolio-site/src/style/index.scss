@@ -1,5 +1,6 @@
 body{
     margin:0em;
+    font-family: 'Raleway', 'Lato', sans-serif;
 }
 
 .hvr-float {
@@ -18,4 +19,18 @@ body{
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
+}
+
+.page-particles{
+    width:100%;
+    height:100vh;
+    position:fixed; 
+    z-index:0;
+    top:0em;
+}
+
+.seperator{
+    width:100%;
+    height:1vh;
+    background-color:#02439e;
 }
