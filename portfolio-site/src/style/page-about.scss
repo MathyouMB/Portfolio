@@ -82,12 +82,14 @@
 
 .page-about-bright{
     color:white;
-    text-shadow: 0 0 3px #ffffff;
+    text-shadow: 0 0 2px #ffffff;
+    transition: all 0.3s ease-in-out;
+}
 
-    a,a:link,a:visited,a:hover,a:active{
-        text-decoration: none;
-    }
-  
+.page-about-bright:hover{
+    color:white;
+    text-shadow: 0 0 4px #ffffff;
+    transition: all 0.3s ease-in-out;
 }
 
 .page-about-profile-image{

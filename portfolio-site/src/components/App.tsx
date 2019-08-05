@@ -18,6 +18,7 @@ const App: React.FC = () => {
      <Header/>
      <Seperator/>
      <About/>
+     <Seperator/>
      <Projects/>
      <Seperator/>
      
