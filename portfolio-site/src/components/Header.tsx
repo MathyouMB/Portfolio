@@ -4,6 +4,7 @@ import Particles from 'react-particles-js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser,faScroll,faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import Particle from './Particles';
 
 
 const Header: React.FC = () => {
@@ -13,11 +14,6 @@ const Header: React.FC = () => {
     const gitIcon = <FontAwesomeIcon icon={faGithub} />
     const linkedIcon = <FontAwesomeIcon icon={faLinkedin} />
 
-    const [greeting, setGreeting] = useState('Hello Function Component!');
-
-    const clicked = () =>{
-        window.open("#page-header2");
-    }
   return (  
       <div>
         <div className="page-header">
@@ -44,66 +40,10 @@ const Header: React.FC = () => {
                 </div>
                 <br></br>
                 <div className="page-header-button">
-                   <button className="page-header-button-enter hvr-float" onClick={clicked}>About Me</button>
+                   <button className="page-header-button-enter hvr-float">About Me</button>
                 </div>
- 
 
             </div>
-            
-
-            <Particles className="page-header-particles"
-                params={{
-                    "particles": {
-                        "number": {
-                            "value": 100,
-                            "density": {
-                                "enable": false
-                            }
-                        },
-                        "size": {
-                            "value": 3,
-                            "random": true,
-                            "anim": {
-                                "speed": 2,
-                                "size_min": 0.3
-                            }
-                        },
-                        "line_linked": {
-                            "enable": false
-                        },
-                        "move": {
-                            "random": true,
-                            "speed": 1,
-                            "out_mode": "out"
-                        }
-                    },
-                    "interactivity": {
-                        "events": {
-                            "onhover": {
-                                "enable": true,
-                                "mode": "bubble"
-                            },
-                            "onclick": {
-                                "enable": false,
-                                "mode": "repulse"
-                            }
-                        },
-                        "modes": {
-                            "bubble": {
-                                "size": 4,
-                                "distance": 40
-                            },
-                            "repulse": {
-                                "distance": 400,
-                                "duration": 4
-                            }
-                        }
-                    }   
-                }}
-            />
-            
-        </div>
-        <div className="page-header2">
             
         </div>
     </div>
