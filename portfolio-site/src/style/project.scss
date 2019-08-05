@@ -20,11 +20,12 @@
     }
  
     a{
+        transition: all 0.3s ease-in-out;
         color:gray;
         @media only screen and (max-width: 500px) {
-            color:rgb(66, 66, 66);
-            }
-    }
+        color:rgb(66, 66, 66);
+        }
+}
    
 }
 .project:hover{
@@ -32,6 +33,7 @@
    color:rgb(66, 66, 66);
 
    a{
+    transition: all 0.3s ease-in-out;
     color:rgb(66, 66, 66);
    }
 

@@ -12,7 +12,7 @@ const About: React.FC = () => {
   const gitIcon = <FontAwesomeIcon icon={faGithub} />
   const linkedIcon = <FontAwesomeIcon icon={faLinkedin} />
   return (  
-    <div className="page-about">
+    <div className="page-about" id="about">
         <div className="page-about-seperator">
           <div className="page-about-conent-container">
             <div className="page-about-profile">
@@ -24,20 +24,20 @@ const About: React.FC = () => {
                     I'm an aspiring fullstack web and software developer currently studying full-time at <span className="page-about-bright" id="page-about-bright-red">Carleton University</span>. 
                      I have a passion for learning about new technology and currently work as a web developer for the <span className="page-about-bright" id="page-about-bright-black">Bank of Cananda </span> 
                       and <span className="page-about-bright" id="page-about-bright-yellow"> Explorator Technology.</span>
-                     </p>
-                  <div className="page-header-icons" id="page-about-font-size">
+                     </p> 
+                     <div className="page-header-icons" id="page-about-font-size">
                     <div className="page-header-icon hvr-float">
-                        {gitIcon}
-                    </div>
-                    <div className="page-header-icon hvr-float">
-                        {linkedIcon}
-                    </div>
-                    <div className="page-header-icon hvr-float">
-                        {mailIcon}
-                    </div>
-                    <div className="page-header-icon hvr-float">
-                        {scrollIcon}
-                    </div>
+                      <a href="https://github.com/MathyouMB">{gitIcon}</a>
+                      </div>
+                      <div className="page-header-icon hvr-float">
+                          <a href="https://www.linkedin.com/in/matthewmacraebovell/">{linkedIcon}</a>
+                      </div>
+                      <div className="page-header-icon hvr-float">
+                          <a href="mailto:matthewmacraebovell@outlook.ca">{mailIcon}</a>
+                      </div>
+                      <div className="page-header-icon hvr-float">
+                          {scrollIcon}
+                      </div>
                 </div>
             </div>
           </div>

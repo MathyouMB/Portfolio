@@ -26,13 +26,13 @@ const Header: React.FC = () => {
                 <div className="page-header-title">Computer Science Student</div>
                 <div className="page-header-icons">
                     <div className="page-header-icon hvr-float">
-                        {gitIcon}
+                    <a href="https://github.com/MathyouMB">{gitIcon}</a>
                     </div>
                     <div className="page-header-icon hvr-float">
-                        {linkedIcon}
+                        <a href="https://www.linkedin.com/in/matthewmacraebovell/">{linkedIcon}</a>
                     </div>
                     <div className="page-header-icon hvr-float">
-                        {mailIcon}
+                        <a href="mailto:matthewmacraebovell@outlook.ca">{mailIcon}</a>
                     </div>
                     <div className="page-header-icon hvr-float">
                         {scrollIcon}
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
                 </div>
                 <br></br>
                 <div className="page-header-button">
-                   <button className="page-header-button-enter hvr-float">About Me</button>
+                   <a href="#about"><button className="page-header-button-enter hvr-float">About Me</button></a>
                 </div>
 
             </div>

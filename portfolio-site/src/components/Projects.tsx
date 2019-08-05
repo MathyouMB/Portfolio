@@ -76,7 +76,7 @@ const Projects: React.FC = () => {
                 type="PC Game"
                 date="May 2018"
                 text="A connect four game where you can shift the force of gravity and discs break over time."
-                repoUrl="#tbh"
+                repoUrl="https://github.com/MathyouMB/ConnectFources"
                 tags= {[
                   { name: "Java", color: "#A36D47"},
                   { name: "JavaFX", color: "#FF6A00"},
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
                 type="Web Application"
                 date="Febuary 2019"
                 text= "A study app that will break up your lazily written notes and return them in an easy to read page by page format."
-                repoUrl="#tbh"
+                repoUrl="https://github.com/MathyouMB/Sead"
                 tags= {[
                   { name: "Python", color: "#3161B2"},
                   { name: "Flask", color: "#164D61"},
@@ -101,7 +101,7 @@ const Projects: React.FC = () => {
                 type="Multiplayer Game"
                 date="Dec 2017 - July 2018"
                 text= 'A modded version of the multiplayer game "Realm of the Mad God" containing custom dungeons, items, and classes.'
-                repoUrl="#tbh"
+                repoUrl="https://github.com/MathyouMB/RecreoSource"
                 tags= {[
                   { name: "C#", color: "#18871A"},
                   { name: "ActionScript3", color: "#B61F1B"},
@@ -114,7 +114,7 @@ const Projects: React.FC = () => {
                 type="Web Application"
                 date="March 2019"
                 text= "An employment related search engine tailored for software developers. This project was built at CuHacking 2019."
-                repoUrl="#tbh"
+                repoUrl="https://github.com/MathyouMB/StackSearch"
                 tags= {[
                   { name: "Flask", color: "#164D61"},
                   { name: "Selenium", color: "#707070"},
@@ -127,7 +127,7 @@ const Projects: React.FC = () => {
                 type="PC Game"
                 date="September 2014"
                 text= "A 2D platformer game developed to further learn C++, pointers, and object oriented programming."
-                repoUrl="#tbh"
+                repoUrl="https://github.com/MathyouMB/Dusk"
                 tags= {[
                   { name: "C", color: "#707070"},
                   { name: "C++", color: "#CD6799"},
@@ -150,7 +150,7 @@ const Projects: React.FC = () => {
                 type="Mobile Game"
                 date="December 2015"
                 text= "A casual mobile game available on the google play store. This game was programmed in less than 24 hours."
-                repoUrl="#tbh"
+                repoUrl="https://github.com/MathyouMB/Project22"
                 tags= {[
                   { name: "GML", color: "#6EB52D"},
                 ]} 
