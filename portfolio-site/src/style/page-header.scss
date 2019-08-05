@@ -33,12 +33,13 @@
     flex-direction:column;
     justify-content:center;
 
-
-    h1,h2,h3,h4{
-        margin:0em;
-        text-shadow: 0 0 4px #ffffff;
-        transition: all 0.3s ease-in-out;
-    }
+    .page-header-name{
+        h1,h2,h3,h4{
+            margin:0em;
+            text-shadow: 0 0 3px #ffffff;
+            transition: all 0.3s ease-in-out;
+        }
+    }   
 
     @media only screen and (max-width: 500px) {
         font-size:25px;  
@@ -50,11 +51,11 @@
 
 .page-header-profile:hover{
     h1,h2,h3,h4{
-        text-shadow: 0 0 6px #ffffff;
+        text-shadow: 0 0 4px #ffffff;
         transition: all 0.3s ease-in-out;
     }
     .page-header-dash{
-        box-shadow: 0 0 6px #ffffff;
+        //box-shadow: 0 0 4px #ffffff;
         transition: all 0.3s ease-in-out;
     }
 }
@@ -89,6 +90,37 @@
     border-style:solid;
     border-color:white;
     border-radius:2em;
-    box-shadow: 0 0 4px #ffffff;
+    box-shadow: 0 0 2px #ffffff;
+    margin-bottom:3vh;
 }
+
+.page-header-title{
+    margin:0.1em;
+    font-size:19px;
+    text-shadow: 0 0 2px #ffffff;
+    
+}
+
+.page-header-button-enter{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1e7bf4;
+    margin-top:50px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+.page-header-button-enter:hover{
+    box-shadow: 0 0 6px #1e7bf4;
+}
+
+
 
