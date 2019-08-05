@@ -15,6 +15,7 @@ const Header: React.FC = () => {
                 </div>
                 <div className="page-header-dash"></div>
                 <div className="page-header-title">Full Stack Web Developer</div>
+                <div className="page-header-icons">icons here</div>
                 <br></br>
                 <div className="page-header-button">
                     <button className="page-header-button-enter hvr-float">About Me</button>
