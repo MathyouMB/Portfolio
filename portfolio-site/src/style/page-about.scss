@@ -6,13 +6,117 @@
     display:flex;
     justify-content: center;
 
+    flex-direction:row;
+
+    @media only screen and (max-width: 500px) {
+        flex-direction:column;
+    }
+}
+
+.page-about-seperator{
+
+    width:100%;
+    height:100vh;
+    z-index: 100;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+
+    @media only screen and (max-width: 500px) {
+        flex-direction:column;
+    }
+
+    margin:auto;
+}
+
+.page-about-conent-container{
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+
+    @media only screen and (max-width: 500px) {
+        flex-direction:column;
+    }
 }
 
 .page-about-inner{
 
     opacity:0.99;
-    background-color:#3e6bce;
+    background-color:whitesmoke;
     width:100%;
-    height:80%;
+    height:100vh;
     z-index: 100;
+
+    
 }
+
+.page-about-content{
+    margin:1em;
+    padding:1em;
+    width: 30em;
+    border-style:solid;
+    border-color:rgb(155, 155, 155);
+    margin:auto;
+    color:white;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+    border-radius:1em;
+    margin-left:0.5em;
+    box-shadow: 0 0 1px #ffffff;
+    
+    @media only screen and (max-width: 500px) {
+        width: 20em;
+    }
+
+    h1{
+        text-shadow: 0 0 3px #ffffff;  
+    }
+  
+}
+
+.page-about-content-p{
+    color:rgb(184, 184, 184);
+}
+
+.page-about-bright{
+    color:white;
+    text-shadow: 0 0 3px #ffffff;
+
+    a,a:link,a:visited,a:hover,a:active{
+        text-decoration: none;
+    }
+  
+}
+
+.page-about-profile-image{
+    margin:auto;
+    width:20em;
+    height:20em;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+    border-width:0em;
+    border-radius:50em;
+    box-shadow: 0 0 0px #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.page-about-profile-image:hover{
+    //box-shadow: 0 0 10px #ffffff;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.page-about-profile{
+    display:flex;
+    
+    justify-content: center;
+    margin:2em;
+}
+
+#page-about-font-size{
+    margin-top:1em;
+    font-size:30px;
+}
+
