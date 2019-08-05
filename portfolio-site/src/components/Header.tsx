@@ -4,6 +4,7 @@ import Particles from 'react-particles-js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser,faScroll,faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { Link } from "react-router-dom";
 
 
 const Header: React.FC = () => {
@@ -13,11 +14,6 @@ const Header: React.FC = () => {
     const gitIcon = <FontAwesomeIcon icon={faGithub} />
     const linkedIcon = <FontAwesomeIcon icon={faLinkedin} />
 
-    const [greeting, setGreeting] = useState('Hello Function Component!');
-
-    const clicked = () =>{
-        window.open("#page-header2");
-    }
   return (  
       <div>
         <div className="page-header">
@@ -44,13 +40,13 @@ const Header: React.FC = () => {
                 </div>
                 <br></br>
                 <div className="page-header-button">
-                   <button className="page-header-button-enter hvr-float" onClick={clicked}>About Me</button>
+                    <Link to="/about"><button className="page-header-button-enter hvr-float">About Me</button></Link>
                 </div>
  
 
             </div>
             
-
+        
             <Particles className="page-header-particles"
                 params={{
                     "particles": {
