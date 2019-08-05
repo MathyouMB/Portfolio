@@ -1,6 +1,14 @@
 body{
     margin:0em;
-    font-family: 'Raleway', 'Lato', sans-serif;
+    font-family: 'Raleway', 'Lato', sans-serif;   
+}
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    transition: all 0.3s ease-in-out;
+    color:white;
 }
 
 .hvr-float {

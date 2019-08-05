@@ -1,6 +1,7 @@
 .page-projects{
     width:100%;
-    height:140vh;
+    min-height:140vh;
+    height:fit-content+5vh;
     background-color:#0a0e20;
     z-index: 100;
     display:flex;
@@ -19,8 +20,8 @@
     background-color: rgba(30, 123, 244, 0.3);;
     
     width:100%;
-    min-height:100vh;
-    max-height:fit-content;
+    min-height:140vh;
+    height:fit-content;
     z-index: 100;
     display:flex;
     flex-direction:column;

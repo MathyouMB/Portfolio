@@ -1,18 +1,42 @@
 .project{
    width:250px;
-   height:450px;
+   height:500px;
    background-color:white;
    margin:1em;
    margin:1em 2em;
 
    border-style:solid;
    border-color:white;
-   border-radius:1em;
+   border-radius:1.2em;
     border-width:0em;
    display:flex;
    flex-direction:column;
- 
+
+   color:gray;
+   transition: all 0.3s ease-in-out;
    
+   @media only screen and (max-width: 500px) {
+    color:rgb(66, 66, 66);
+    }
+ 
+    a{
+        transition: all 0.3s ease-in-out;
+        color:gray;
+        @media only screen and (max-width: 500px) {
+        color:rgb(66, 66, 66);
+        }
+}
+   
+}
+.project:hover{
+   transition: all 0.3s ease-in-out;
+   color:rgb(66, 66, 66);
+
+   a{
+    transition: all 0.3s ease-in-out;
+    color:rgb(66, 66, 66);
+   }
+
 }
 
 .project-inner{
@@ -20,17 +44,26 @@
     padding-top:0.4em;
     width:90%;
 
-    h2,h4{
+    h2,h4,h5{
         margin-top:0.25em;
         margin-bottom:0.25em;
     }
     p{
-        margin-top:0.25em;
+        margin-top:0.5em;
     }
 }
 
+
+
 .project-content{
     overflow-wrap: normal;
+  
+}
+
+.project-content:hover{
+    color:rgb(66, 66, 66);
+    transition: all 0.3s ease-in-out;
+    
 }
 
 .project-image-div{
@@ -55,4 +88,10 @@
     margin-left:0.2em;
     margin-right:0.2em;
     padding: 0.4em 0.65em;
+}
+
+.project-content-title{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
 }
