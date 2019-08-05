@@ -23,7 +23,7 @@ const Header: React.FC = () => {
                     <h3>MacRae - Bovell</h3>
                 </div>
                 <div className="page-header-dash"></div>
-                <div className="page-header-title">Full Stack Web Developer</div>
+                <div className="page-header-title">Computer Science Student</div>
                 <div className="page-header-icons">
                     <div className="page-header-icon hvr-float">
                         {gitIcon}
