@@ -1,6 +1,6 @@
 .page-about{
     width:100%;
-    height:100vh;
+    min-height:100vh;
     background-color:#0a0e20;
     z-index: 100;
     display:flex;
@@ -36,7 +36,7 @@
     flex-direction:row;
     justify-content:center;
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 950px) {
         flex-direction:column;
     }
 }
@@ -65,9 +65,19 @@
     border-radius:1em;
     margin-left:0.5em;
     box-shadow: 0 0 1px #ffffff;
+    margin:auto;
+    margin-bottom:2em;
     
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 550px) {
         width: 20em;
+    }
+    
+    @media only screen and (max-width: 370px) {
+        width: 20em;
+    }
+    @media only screen and (max-width: 330px) {
+        width:15em;
+      
     }
 
     h1{
@@ -82,12 +92,14 @@
 
 .page-about-bright{
     color:white;
-    text-shadow: 0 0 3px #ffffff;
+    text-shadow: 0 0 2px #ffffff;
+    transition: all 0.3s ease-in-out;
+}
 
-    a,a:link,a:visited,a:hover,a:active{
-        text-decoration: none;
-    }
-  
+.page-about-bright:hover{
+    color:white;
+    text-shadow: 0 0 4px #ffffff;
+    transition: all 0.3s ease-in-out;
 }
 
 .page-about-profile-image{
@@ -100,6 +112,11 @@
     border-radius:50em;
     box-shadow: 0 0 0px #ffffff;
     transition: all 0.3s ease-in-out;
+
+    @media only screen and (max-width: 330px) {
+        width:15em;
+        height:15em;
+    }
 }
 
 .page-about-profile-image:hover{
@@ -110,9 +127,19 @@
 
 .page-about-profile{
     display:flex;
-    
+ margin:2em;    
     justify-content: center;
-    margin:2em;
+    margin-bottom:2em;
+    margin-top:2em;
+
+    @media only screen and (max-width: 400px) {
+        margin-bottom:2em;
+        margin-top:2em;
+        margin-left:0em;
+        margin-right:0em;
+    }
+
+    
 }
 
 #page-about-font-size{
