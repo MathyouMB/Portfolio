@@ -103,9 +103,6 @@ const Header: React.FC = () => {
             />
             
         </div>
-        <div className="page-header2">
-            
-        </div>
     </div>
   );
 }
