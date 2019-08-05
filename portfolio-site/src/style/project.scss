@@ -1,6 +1,6 @@
 .project{
    width:250px;
-   height:400px;
+   height:450px;
    background-color:white;
    margin:1em;
    margin:1em 2em;
@@ -8,5 +8,51 @@
    border-style:solid;
    border-color:white;
    border-radius:1em;
+    border-width:0em;
+   display:flex;
+   flex-direction:column;
+ 
    
+}
+
+.project-inner{
+    padding:1em;
+    padding-top:0.4em;
+    width:90%;
+
+    h2,h4{
+        margin-top:0.25em;
+        margin-bottom:0.25em;
+    }
+    p{
+        margin-top:0.25em;
+    }
+}
+
+.project-content{
+    overflow-wrap: normal;
+}
+
+.project-image-div{
+    width:100%;
+}
+
+.project-image{
+    width:100%;
+    border-radius: 1em 1em 0em 0em;
+    border-width: 0em 0em 0.1em 0em;
+    border-style:solid;
+    border-color:rgb(208, 208, 209);
+}
+
+.project-skill{
+    font-size:12px;
+    border-color:rgb(177, 177, 177);
+    color:white;
+    border-width:0px;
+    border-radius:5px;
+    border-style: solid;
+    margin-left:0.2em;
+    margin-right:0.2em;
+    padding: 0.4em 0.65em;
 }

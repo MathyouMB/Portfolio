@@ -15,8 +15,9 @@
 .page-projects-inner{
     padding-top:10vh;
   
-    opacity:0.99;
-    background-color: #1e7bf4;
+    
+    background-color: rgba(30, 123, 244, 0.3);;
+    
     width:100%;
     min-height:100vh;
     max-height:fit-content;
@@ -28,6 +29,7 @@
 
 .page-projects-project-wrapper{
     width:100%;
+    opacity:1;
    /* display:flex;
     justify-content: center;
     flex-direction:row;**/
@@ -41,7 +43,7 @@
     width:90em;
 }
 
-  @media only screen and (max-width: 1270px) {
+  @media only screen and (max-width: 1290px) {
       width:70%;
   }
 

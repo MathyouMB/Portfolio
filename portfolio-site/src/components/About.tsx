@@ -13,13 +13,6 @@ const About: React.FC = () => {
   const linkedIcon = <FontAwesomeIcon icon={faLinkedin} />
   return (  
     <div className="page-about">
-       {/*
-        <div className="page-about-inner">
-            <div className="page-about-content">
-                <h1>About</h1>
-            </div>
-        </div>
-       */}
         <div className="page-about-seperator">
           <div className="page-about-conent-container">
             <div className="page-about-profile">
