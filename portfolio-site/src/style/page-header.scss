@@ -164,11 +164,13 @@
     width:60%;
     display:flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:center;
+    //justify-content:space-evenly;
 }
 
 .page-header-icon{
     opacity:0.7;
+    margin:0.2em;
     transition: all 0.3s ease-in-out;
 }
 
