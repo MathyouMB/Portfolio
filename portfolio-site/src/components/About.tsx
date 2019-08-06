@@ -22,7 +22,7 @@ const About: React.FC = () => {
                   <h1>About Me</h1> 
                   <p className="page-about-content-p">{/*<a href="https://carleton.ca">*/}
                     I'm an aspiring fullstack web and software developer currently studying full-time at <span className="page-about-bright" id="page-about-bright-red">Carleton University</span>. 
-                     I have a passion for learning about new technology and currently work as a web developer for the <span className="page-about-bright" id="page-about-bright-black">Bank of Cananda </span> 
+                     I have a passion for learning about new technology and currently work as a web developer for the <span className="page-about-bright" id="page-about-bright-black">Bank of Canada </span> 
                       and <span className="page-about-bright" id="page-about-bright-yellow"> Explorator Technology.</span>
                      </p> 
                      <div className="page-header-icons" id="page-about-font-size">
