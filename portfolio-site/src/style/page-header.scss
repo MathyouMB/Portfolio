@@ -20,7 +20,7 @@
 .page-header-profile{
     position:absolute;
     padding: 0.4em;
-    top:25%;
+    top:20%;
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -76,6 +76,10 @@
 
         }
 
+    }
+
+    @media only screen and (max-width: 450px) {
+        top:10%;
     }
     
     
