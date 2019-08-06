@@ -15,7 +15,7 @@ const Header: React.FC = () => {
     const linkedIcon = <FontAwesomeIcon icon={faLinkedin} />
 
   return (  
-      <div>
+      <div className="page-header-wrap">
         <div className="page-header">
             <div className="page-header-profile fadeIn">
                 <div className="page-header-name hvr-float">
