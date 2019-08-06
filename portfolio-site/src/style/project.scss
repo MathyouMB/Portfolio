@@ -11,7 +11,7 @@
     border-width:0em;
    display:flex;
    flex-direction:column;
-
+   text-decoration: none;
    color:gray;
    transition: all 0.3s ease-in-out;
    
@@ -24,6 +24,7 @@
         color:gray;
         @media only screen and (max-width: 500px) {
         color:rgb(66, 66, 66);
+        text-decoration: none;
         }
 }
    

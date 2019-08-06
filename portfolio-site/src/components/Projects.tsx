@@ -37,7 +37,7 @@ const Project: React.FC<{ imgUrl:string, title: string, date:string, type: strin
         <div className="project-inner">
           <div className="project-content">
             <div className="project-content-title">
-             <h2>{props.title}</h2>
+             <h2><a href={props.repoUrl}>{props.title}</a></h2>
              <h2><a href={props.repoUrl}>{gitIcon}</a></h2>
             </div>
             <h4>{props.type}</h4>
@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
                 type="Website"
                 date="August 2019"
                 text= "My new personal developer portolio build on React with Typescript."
-                repoUrl="#tbh"
+                repoUrl="https://github.com/MathyouMB/Portfolio"
                 tags= {[
                   { name: "React", color: "#E2C800"},
                   { name: "Typescript", color: "#007ACC"},
