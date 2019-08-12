@@ -4,6 +4,7 @@ import Header from './Header';
 import About from './About';
 import Projects from './Projects';
 import Particle from './Particles';
+import Work from './Work';
 
 const Seperator: React.FC = () => {
   return(
@@ -18,6 +19,8 @@ const App: React.FC = () => {
      <Header/>
      <Seperator/>
      <About/>
+     <Seperator/>
+     <Work/>
      <Seperator/>
      <Projects/>
      <Seperator/>
