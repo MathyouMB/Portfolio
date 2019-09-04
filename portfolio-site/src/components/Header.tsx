@@ -14,8 +14,9 @@ const Header: React.FC = () => {
     const mailIcon = <FontAwesomeIcon icon={faEnvelope} />
     const gitIcon = <FontAwesomeIcon icon={faGithub} />
     const linkedIcon = <FontAwesomeIcon icon={faLinkedin} />
-
-  return (  
+    /*okay*/
+  return ( 
+      
       <div className="page-header-wrap">
         <div className="page-header">
             <div className="page-header-profile fadeIn">
