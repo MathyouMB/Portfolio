@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser,faScroll,faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import Particle from './Particles';
+//import resume from '../resumes/resume.pdf';
 
 
 const Header: React.FC = () => {
@@ -35,7 +36,7 @@ const Header: React.FC = () => {
                         <a href="mailto:matthewmacraebovell@outlook.ca">{mailIcon}</a>
                     </div>
                     <div className="page-header-icon hvr-float">
-                        <a href="https://drive.google.com/file/d/1fHfytC_4Y0l6_7dyLMvy4GW9ADgSm5Hc/view">{scrollIcon}</a>
+                        <a href="../resume.pdf">{scrollIcon}</a>
                     </div>
                 </div>
                 <br></br>
