@@ -20,7 +20,7 @@ const Header: React.FC = () => {
       
       <div className="page-header-wrap">
         <div className="page-header">
-            <ScrollAnimation animateIn="fadeIn" style={{"display": "flex", "justify-content": "center"}}>
+            <ScrollAnimation animateIn="fadeIn" style={{"display": "flex", "justifyContent": "center"}}>
             <div className="page-header-profile fadeIn">
                 <div className="page-header-name hvr-float">
                     <h1>MATTHEW</h1>

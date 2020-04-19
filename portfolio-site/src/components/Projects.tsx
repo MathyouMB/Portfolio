@@ -31,7 +31,7 @@ const Project: React.FC<{ imgUrl:string, title: string, date:string, type: strin
       }
 
   return (  
-    <ScrollAnimation animateIn="fadeIn" style={{"display": "flex", "justify-content": "center"}}>
+    <ScrollAnimation animateIn="fadeIn" style={{"display": "flex", "justifyContent": "center"}}>
     <div className="project hvr-float">
         <div className="project-image-div">
             <img className="project-image" src={props.imgUrl}></img>
