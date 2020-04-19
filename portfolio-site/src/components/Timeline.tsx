@@ -18,7 +18,7 @@ const Timeline: React.FC = () => {
             contentStyle={{ background: 'rgb(220, 29, 47)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(220, 29, 47)' }}
             date="Summer 2020"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', backgroundImage: 'url("https://i.imgur.com/CrKAu9L.png")', backgroundPosition: "center", backgroundSize: "contain" }}>
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', backgroundImage: 'url("https://i.imgur.com/jNGrDOX.png")', backgroundPosition: "center", backgroundSize: "contain" }}>
             <h3 className="vertical-timeline-element-title">Application Platform Developer</h3>
             <h5 className="vertical-timeline-element-subtitle">Kinaxis</h5>
             <span className="vertical-timeline-element-subtitle">Ottawa, Canada</span>
@@ -101,7 +101,7 @@ const Timeline: React.FC = () => {
             <h5 className="vertical-timeline-element-subtitle ">Digitera Interactive</h5>
             <span className="vertical-timeline-element-subtitle">Ottawa, Canada</span>
             <p>
-            Utilized Python, Beautiful Soup, and Selenium to develop automated web application tests and web scrapers
+            Utilized Python, Beautiful Soup, and Selenium to develop automated web application tests and web scrapers.
             </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
