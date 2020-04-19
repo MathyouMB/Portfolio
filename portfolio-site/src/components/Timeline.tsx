@@ -12,6 +12,7 @@ const Timeline: React.FC = () => {
       
     <div className="page-timeline">
         <VerticalTimeline>
+            
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(220, 29, 47)', color: '#fff' }}
