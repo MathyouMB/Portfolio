@@ -5,7 +5,7 @@ import Particles from 'react-particles-js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser,faScroll,faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faYoutube} from '@fortawesome/free-brands-svg-icons';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 
@@ -17,7 +17,8 @@ interface Tag{
 const Project: React.FC<{ imgUrl:string, title: string, date:string, type: string, text: string, repoUrl: string, tags: Tag[]}> = (props) => {
   const gitIcon = <FontAwesomeIcon icon={faGithub} />
   const gitYoutube = <FontAwesomeIcon icon={faGithub} />
-      const skills = []
+  const skills = []
+
       for (let j = 0; j<props.tags.length;j++) {
 
         const divStyle = {
@@ -30,6 +31,7 @@ const Project: React.FC<{ imgUrl:string, title: string, date:string, type: strin
       }
 
   return (  
+    <ScrollAnimation animateIn="fadeIn" style={{"display": "flex", "justify-content": "center"}}>
     <div className="project hvr-float">
         <div className="project-image-div">
             <img className="project-image" src={props.imgUrl}></img>
@@ -47,11 +49,11 @@ const Project: React.FC<{ imgUrl:string, title: string, date:string, type: strin
           </div>   
         </div>    
     </div>
+    </ScrollAnimation>
   );
   }
 
 const Projects: React.FC = () => {
-
 
   return (  
     <div className="page-projects">
