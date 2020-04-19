@@ -1,9 +1,8 @@
-import React, { useState }  from 'react';
+import React from 'react';
 import '../style/page-about.scss';
-import Particles from 'react-particles-js';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser,faScroll,faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import { faScroll,faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 

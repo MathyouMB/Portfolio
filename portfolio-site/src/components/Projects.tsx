@@ -1,13 +1,9 @@
-import React, { useState }  from 'react';
+import React from 'react';
 import '../style/page-projects.scss';
 import '../style/project.scss';
-import Particles from 'react-particles-js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser,faScroll,faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin, faYoutube} from '@fortawesome/free-brands-svg-icons';
+import { faGithub} from '@fortawesome/free-brands-svg-icons';
 import ScrollAnimation from 'react-animate-on-scroll';
-
-
 
 interface Tag{
     name: string
@@ -16,7 +12,6 @@ interface Tag{
 
 const Project: React.FC<{ imgUrl:string, title: string, date:string, type: string, text: string, repoUrl: string, tags: Tag[]}> = (props) => {
   const gitIcon = <FontAwesomeIcon icon={faGithub} />
-  const gitYoutube = <FontAwesomeIcon icon={faGithub} />
   const skills = []
 
       for (let j = 0; j<props.tags.length;j++) {
