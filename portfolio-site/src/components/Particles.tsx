@@ -13,8 +13,11 @@ const Particle: React.FC = () => {
                                 "enable": false
                             }
                         },
+                        "color": {
+                            "value": ["#BD10E0","#B8E986","#50E3C2","#FFD300","#E86363"]
+                        },
                         "size": {
-                            "value": 3,
+                            "value": 4,
                             "random": true,
                             "anim": {
                                 "speed": 2,

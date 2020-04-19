@@ -173,9 +173,18 @@
     //justify-content:space-evenly;
 }
 
+
+
 .page-header-icon{
     opacity:0.7;
     margin:0.2em;
+    transition: all 0.3s ease-in-out;
+}
+
+.page-header-icon:hover{
+    -webkit-filter: drop-shadow( 0px 0px 2px rgba(255, 255, 255, 0.2));
+    filter: drop-shadow( 0px 0px 2px rgba(255, 255, 255, 0.2));
+    /* Similar syntax to box-shadow */
     transition: all 0.3s ease-in-out;
 }
 
