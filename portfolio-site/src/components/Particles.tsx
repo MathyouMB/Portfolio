@@ -1,10 +1,11 @@
 import React from 'react';
-import Particles from 'react-particles-js';
+import Particles from 'react-particles-js'; 
 
 const Particle: React.FC = () => {
     
   return (  
         <Particles className="page-particles"
+                //@ts-ignore
                 params={{
                     "particles": {
                         "number": {

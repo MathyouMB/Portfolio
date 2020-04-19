@@ -3,6 +3,7 @@ import '../style/App.scss';
 import Header from './Header';
 import About from './About';
 import Projects from './Projects';
+import Timeline from './Timeline';
 import Particle from './Particles';
 
 const Seperator: React.FC = () => {
@@ -18,6 +19,8 @@ const App: React.FC = () => {
      <Header/>
      <Seperator/>
      <About/>
+     <Seperator/>
+     <Timeline/>
      <Seperator/>
      <Projects/>
      <Seperator/>
