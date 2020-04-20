@@ -11,6 +11,9 @@ const Timeline: React.FC = () => {
   return ( 
       
     <div className="page-timeline">
+        <br></br>
+        <br></br>
+        <h1 className="page-projects-header">Experiences</h1> 
         <VerticalTimeline>
             
         <VerticalTimelineElement

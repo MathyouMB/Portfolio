@@ -12,12 +12,20 @@
     }
 
 }
+.page-projects-header{
+    text-align: center;
+    margin: auto;
+    color:white;
+    //text-shadow: 0 0 2px #ffffff;
+    text-shadow: 0 0 3px #ffffff;  
+    margin-bottom:1em;
+}
 //test
 .page-projects-inner{
     padding-top:10vh;
   
     
-    background-color: rgba(30, 123, 244, 0.3);;
+    //background-color: rgba(30, 123, 244, 0.3);;
     
     width:100%;
     min-height:140vh;

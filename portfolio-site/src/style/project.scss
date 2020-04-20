@@ -8,7 +8,7 @@
    border-style:solid;
    border-color:white;
    border-radius:1.2em;
-    border-width:0em;
+    border-width:0.5em;
    display:flex;
    flex-direction:column;
    text-decoration: none;
@@ -32,6 +32,7 @@
 .project:hover{
    transition: all 0.3s ease-in-out;
    color:rgb(66, 66, 66);
+   box-shadow: 0 0 8px #ffffff;
 
    a{
     transition: all 0.3s ease-in-out;
