@@ -14,14 +14,13 @@ const About: React.FC = () => {
   return (  
     <div className="page-about" id="about">
         <div className="page-about-seperator">
-        
+        <ScrollAnimation animateIn="fadeIn" style={{"display": "flex"}}>
           <div className="page-about-conent-container">
-            <ScrollAnimation animateIn="fadeIn">
+          
             <div className="page-about-profile">
               <img className="page-about-profile-image hvr-float" src="/profile.jpg"></img>
             </div>
-            </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" style={{"display": "flex"}}>
+         
             <div className="page-about-content">
                   <h1>About Me</h1> 
                   <p className="page-about-content-p">{/*<a href="https://carleton.ca">*/}
@@ -44,8 +43,9 @@ const About: React.FC = () => {
                     </div>
                   </div>
             </div>
-            </ScrollAnimation>
+            
           </div>
+          </ScrollAnimation>
           
         </div>
     </div>
