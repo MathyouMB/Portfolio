@@ -89,7 +89,7 @@ const Projects: React.FC = () => {
               />
                <Project 
                 imgUrl="https://i.imgur.com/fTsYrFJ.png"
-                title ="Web Infrastructure Workshop" 
+                title ="Web Infrastructure Presentation" 
                 type="Presentation"
                 date="April 2020"
                 text= "A presentation discussing the challenges in building web applications given remotely at MLH local hack day: Share."
@@ -102,7 +102,7 @@ const Projects: React.FC = () => {
                 type="Web Application"
                 date="March 2020"
                 text= "This is my final project for COMP3005 Database Management Systems."
-                repoUrl="https://github.com/MathyouMB/Portfolio"
+                repoUrl="https://github.com/MathyouMB/Bookstore"
                 tags= {[
                   { name: "React", color: "#E2C800"},
                   { name: "Go", color: "#6AD6E3"},

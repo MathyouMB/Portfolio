@@ -17,17 +17,17 @@ const Timeline: React.FC = () => {
         <VerticalTimeline>
             
         <VerticalTimelineElement
-            className="vertical-timeline-element--work "
+            className="vertical-timeline-element--work  "
             contentStyle={{ background: 'rgb(220, 29, 47)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(220, 29, 47)' }}
-            date="Summer 2020"
+            date="May 2020 - Present"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', backgroundImage: 'url("https://i.imgur.com/jNGrDOX.png")', backgroundPosition: "center", backgroundSize: "contain" }}>
             <a href="https://www.kinaxis.com/en">
             <h3 className="vertical-timeline-element-title">Application Platform Developer</h3>
             <h5 className="vertical-timeline-element-subtitle"><a href="https://www.kinaxis.com/en">Kinaxis</a></h5>
             <h5 className="vertical-timeline-element-subtitle">Ottawa, Canada</h5>
             <p>
-            Will be developing features for Kinaxis' cloud-based supply chain management product 'Rapid Response'.
+            Will be developing backend features for Kinaxis' cloud-based supply chain management product 'Rapid Response'.
             </p>
             </a>
         </VerticalTimelineElement>
